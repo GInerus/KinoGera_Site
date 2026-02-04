@@ -51,3 +51,53 @@ body {
     font-size: 0.9rem;
     margin: 0 10px 10px 10px;
 }
+
+/* Карусель баннеров */
+.carousel {
+  width: 100vw;                  /* вся ширина окна браузера */
+  max-width: 100%;               /* чтобы не было лишнего скролла */
+  overflow: hidden;
+  position: relative;            /* для кнопок */
+  border-radius: 25px;              /* если хочешь, чтобы впритык к краям */
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-track img {
+  width: 100vw;                  /* баннер растягивается на всю ширину окна */
+  flex-shrink: 0;
+}
+
+/* Кнопки */
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  font-size: 2rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 10;
+  user-select: none;
+  transition: background 0.3s;
+}
+
+.carousel-button:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+
