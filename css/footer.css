@@ -1,0 +1,19 @@
+/* =====================
+   Футер
+===================== */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

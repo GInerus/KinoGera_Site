@@ -1,0 +1,56 @@
+/* =====================
+   Хедер
+===================== */
+header {
+  background-color: #0A0A0A;      /* тёмный фон */
+  padding: 10px 20px;          /* внутренние отступы */
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 50px;         /* скругление всего хедера */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;         /* выравнивание по вертикали */
+  justify-content: space-between;
+}
+
+.nav-logo {
+  color: #000;                 
+  background-color: #fff;      
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  text-decoration: none;
+  padding: 0 20px;            /* только горизонтальный padding */
+  border-radius: 50px;
+  transition: background 0.3s;
+  display: flex;
+  align-items: center;        /* вертикальное центрирование текста */
+  justify-content: center;    /* горизонтальное центрирование текста */
+  height: 40px;               /* фиксированная высота */
+  box-sizing: border-box;
+}
+
+.nav-logo:hover {
+  background-color: #eee;
+}
+
+/* Кнопки навигации — одинаковая высота с логотипом */
+.nav-links a {
+  display: inline-flex;
+  align-items: center;         /* вертикальное центрирование текста */
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  padding: 0 15px;             /* горизонтальный padding */
+  height: 40px;                /* та же высота, что у логотипа */
+  margin-left: 0px;
+  border-radius: 50px;
+  background-color: #222;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.nav-links a:hover {
+  background-color: #444;
+  transform: scale(1.05);
+}

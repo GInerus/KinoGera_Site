@@ -6,19 +6,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #111;
+    background: #050060;
     color: #eee;
-}
-
-header, footer {
-    background: #000;
-    padding: 15px;
-}
-
-nav a {
-    color: #fff;
-    margin-right: 15px;
-    text-decoration: none;
 }
 
 .container {
