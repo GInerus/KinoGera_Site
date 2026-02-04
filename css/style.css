@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #eee;
+}
+
+header, footer {
+    background: #000;
+    padding: 15px;
+}
+
+nav a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Сетка фильмов */
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+/* Карточка фильма */
+.movie {
+    background-color: #1e1e1e;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.movie:hover {
+    transform: scale(1.05);
+}
+
+.movie img {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #333;
+}
+
+.movie h3 {
+    font-size: 1.1rem;
+    margin: 10px;
+}
+
+.movie p, .movie span {
+    font-size: 0.9rem;
+    margin: 0 10px 10px 10px;
+}

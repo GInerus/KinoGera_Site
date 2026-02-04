@@ -1,0 +1,31 @@
+[
+  {
+    "id": "1",
+    "title": "Интерстеллар",
+    "year": 2014,
+    "genre": "Фантастика, драма",
+    "description": "Группа исследователей использует червоточину...",
+    "poster": "/images/posters/0001.jpg",
+    "trailer": "/media/trailers/interstellar.mp4",
+    "rating": 8.6
+  },
+  {
+    "id": "2",
+    "title": "Матрица",
+    "year": 1999,
+    "genre": "Фантастика, боевик",
+    "description": "Мир — это иллюзия...",
+    "poster": "/images/posters/0002.jpg",
+    "trailer": "/media/trailers/matrix.mp4",
+    "rating": 8.7
+  },
+  {
+    "id": "3",
+    "title": "Начало",
+    "year": 2010,
+    "genre": "Фантастика, триллер",
+    "description": "Похищение идей через сны...",
+    "poster": "/images/posters/0003.jpg",
+    "rating": 8.8
+  }
+]
