@@ -4,5 +4,5 @@ document.getElementById(id).innerHTML = await response.text();
 }
 
 
-loadPartial('header', './partials/header.html');
-loadPartial('footer', './partials/footer.html');
+loadPartial('header', '../partials/header.html');
+loadPartial('footer', '../partials/footer.html');
