@@ -25,7 +25,8 @@
     "year": 2010,
     "genre": "Фантастика, триллер",
     "description": "Похищение идей через сны...",
-    "poster": "/images/posters/0003.jpg",
+    "poster": "/images/posters/0003.png",
+    "trailer": "/media/trailers/nachalo.mp4",
     "rating": 8.8
   }
 ]

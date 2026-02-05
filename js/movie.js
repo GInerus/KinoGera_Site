@@ -31,4 +31,3 @@ fetch('/data/movies.json')
   .catch(err => {
     console.error('Ошибка загрузки movies.json', err);
   });
-  

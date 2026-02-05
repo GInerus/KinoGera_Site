@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<title>KinoGera</title>
-<link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <title>KinoGera — Новости</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <style>
+        .news-soon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 60vh;
+            text-align: center;
+            color: #eee;
+        }
+
+        .news-soon h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .news-soon p {
+            font-size: 1.2rem;
+            color: #aaa;
+        }
+    </style>
 </head>
+
 <body>
-<div id="header"></div>
-
-
-<main class="container">
-<h2>Раздел в разработке</h2>
-</main>
-
-
-<div id="footer"></div>
-
-
-<script src="/js/main.js"></script>
+    <div id="header"></div>
+    
+    <main class="container">
+        <div class="news-soon">
+            <h1>Новости кино</h1>
+            <p>Новые новости пока не добавлены 😎<br>Следите за обновлениями на нашем сайте.</p>
+        </div>
+    </main>
+    
+    <div id="footer"></div>
+    
+    <script src="/js/main.js"></script>
 </body>
 </html>

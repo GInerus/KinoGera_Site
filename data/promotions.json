@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "Скидка на билеты",
+    "image": "/images/promotions/max.jpg"
+  },
+  {
+    "id": "2",
+    "title": "2 по цене 1",
+    "image": "/images/promotions/Гораж.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Подарок при покупке",
+    "image": "/images/promotions/нерадив.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Подарок при покупке",
+    "image": "/images/promotions/Скилки_каждый_день.jpg"
+  }
+]
